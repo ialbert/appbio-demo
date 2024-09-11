@@ -1,4 +1,4 @@
-# Applied Bioinformatics Repository
+# AI powered Bioinformatics Demo Repository
 
 This repository is a demonstration repository used in the [AI powered Bioinformatics][appbio-link] course in the [Biostar Handbook][handbook].
 
