@@ -1,11 +1,11 @@
 # Applied Bioinformatics Repository
 
-This repository is a demonstration repository used in the [AI powered Bioinformatics][appbio] course in the [Biostar Handbook][handbook].
+This repository is a demonstration repository used in the [AI powered Bioinformatics][appbio-link] course in the [Biostar Handbook][handbook].
 
 [handbook]: https://www.biostarhandbook.com
-[appbio]: https://www.biostarhandbook.com/appbio/
+[appbio-link]: https://www.biostarhandbook.com/appbio/
 
-![Bioinformatics Course Banner][appbio-page]
+[![Bioinformatics Course Banner][appbio-page]][appbio-link]
 
 [appbio-page]: img/appbio-page.png
 
