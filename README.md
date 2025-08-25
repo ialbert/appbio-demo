@@ -1,17 +1,17 @@
-# AI powered Bioinformatics Demo Repository
+# FastTracj Bioinformatics Demo Repository
 
 This repository is a demonstration repository used in the 
 
-* [AI powered Bioinformatics][appbio-link] 
+* [FastTrack Bioinformatics][appbio-link] 
 
 course of the [Biostar Handbook][handbook].
 
 [![Bioinformatics Course Banner][appbio-page]][appbio-link]
 
 [handbook]: https://www.biostarhandbook.com
-[appbio-link]: https://www.biostarhandbook.com/appbio/
+[appbio-link]: [https://www.biostarhandbook.com/appbio/](https://www.biostarhandbook.com/fast/)
 
-[appbio-page]: img/appbio-page.png
+[appbio-page]: img/fastbio-page.png
 
 ### Tips for creating a new repository
 
@@ -39,6 +39,6 @@ Common mistakes students make when creating repositories:
 
 All course materials are available at: 
 
-* [AI powered Bioinformatics](https://www.biostarhandbook.com/appbio/)
+* [FastTrack Bioinformatics](https://www.biostarhandbook.com/fast/)
 
 
