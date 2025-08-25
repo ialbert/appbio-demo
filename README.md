@@ -1,4 +1,4 @@
-# FastTracj Bioinformatics Demo Repository
+# FastTrack Bioinformatics Demo Repository
 
 This repository is a demonstration repository used in the 
 
