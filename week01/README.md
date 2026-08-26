@@ -1,6 +1,6 @@
 # Lecture 1
 
-In GitHub it is very handy to make a README.md in each directory because the contents of this file will be shown by default when selecting the directory.
+In GitHub the `README.md` will be shown as the landing page when selecting the directory.
 
 The directory will typically contain other ancilliary files, such as images, data, script, Makefiles, etc.
 

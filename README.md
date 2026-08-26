@@ -1,4 +1,4 @@
-# Bioinformatics Demo Repository
+# Bioinformatics Data Analysis Course
 
 This repository is a demonstration repository used in the course.
 
