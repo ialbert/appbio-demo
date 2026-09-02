@@ -11,7 +11,17 @@ FA_GZ = fasta/${NAME}.fna.gz
 FA = fasta/${NAME}.fa
 GFF = gff/${NAME}.gff.gz
 
+JAVA_HOME ?= /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
+JAVAC = ${JAVA_HOME}/bin/javac
+JAVA = ${JAVA_HOME}/bin/java
+
 all: ${FA}.fai ${GFF}.tbi
+
+run: all src/browser.class
+	${JAVA} -cp src browser ${FA} ${GFF}
+
+src/browser.class: src/browser.java
+	${JAVAC} src/browser.java
 
 fasta gff:
 	mkdir -p $@
@@ -38,6 +48,6 @@ ${GFF}.tbi: ${GFF}
 	tabix -p gff ${GFF}
 
 clean:
-	rm -rf fasta gff
+	rm -rf fasta gff src/*.class
 
-.PHONY: all clean
+.PHONY: all clean run
